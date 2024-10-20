@@ -74,9 +74,9 @@
 </dict>
 </array>
 <key>PayloadDescription</key>
-<string>Configures device to use Electro Encrypted DNS over TLS</string>
+<string>Configures device to use RDNS Encrypted DNS over TLS</string>
 <key>PayloadDisplayName</key>
-<string>RDNS over TLS</string>
+<string>R DNS over TLS</string>
 <key>PayloadIdentifier</key>
 <string>com.apple.dnsSettings.managed.eb62adfe-18e0-40f6-a97b-74480cdcf627</string>
 <key>PayloadType</key>
@@ -92,7 +92,7 @@
 <key>PayloadDescription</key>
 <string>Adds different R DNS configurations to macOS X and iOS based systems</string>
 <key>PayloadDisplayName</key>
-<string>R DNS Secure DNS</string>
+<string>RDNS Secure </string>
 <key>PayloadIdentifier</key>
 <string>org.electro.a0e3f894-c4b8-49f8-9739-7ce533bbb750</string>
 <key>PayloadRemovalDisallowed</key>
