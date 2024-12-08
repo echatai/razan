@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قرعه‌کشی RDNS</title>
+    <style>
+        @font-face {
+            font-family: 'Yekan';
+            src: url("iranyekanweb.ttf") format('truetype');
+        }
+
+        body, h1, h2, p, .button {
+            font-family: 'Yekan', Arial, sans-serif;
+            text-align: center;
+        }
+
+        body {
+            background: linear-gradient(to bottom, #1e1e2f, #0f0f1f);
+            color: #FFFFFF;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #2c2c3e;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #FF5722;
+            color: #FFFFFF;
+            text-decoration: none;
+            text-align: center;
+            font-family: Yekan, sans-serif;
+            border: none;
+            border-radius: 25px;
+            margin: 10px 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #E64A19;
+        }
+
+        .prizes {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .prize-item {
+            background: #333344;
+            border-radius: 10px;
+            padding: 10px;
+            width: 120px;
+            text-align: center;
+        }
+
+        .prize-item img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        /* Media query for responsive design */
+        @media screen and (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            .prizes {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> قرعه‌کشی ویژه RDNS</h1>
+        <p>با دنبال کردن صفحه اینستاگرام ما، شانس خود را برای بردن جوایز ارزشمند امتحان کنید!</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>جوایز ویژه</h2>
+            <div class="prizes">
+                <div class="prize-item">
+                    <img src="30.jpg" alt="نفر اول">
+                    <p>اشتراک حذف تبلیغات 30 روزه</p>
+                </div>
+                <div class="prize-item">
+                    <img src="15.jpg" alt="نفر دوم">
+                    <p>اشتراک حذف تبلیغات 15 روزه</p>
+                </div>
+                <div class="prize-item">
+                    <img src="7.jpg" alt="نفر سوم">
+                    <p>اشتراک حذف تبلیغات 7 روزه</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>چطور شرکت کنیم؟</h2>
+            <p>برای شرکت در قرعه‌کشی، کافیست صفحه اینستاگرام ما را دنبال کنید و تصویر رسید دنبال کردن را در تلگرام ارسال کنید.</p>
+            <a href="https://www.instagram.com/rdns_page" class="button">صفحه اینستاگرام</a>
+            <a href="https://t.me/rdns_shop" class="button">ارسال در تلگرام</a>
+        </div>
+    </div>
+</body>
+</html>
