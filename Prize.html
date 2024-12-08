@@ -24,7 +24,7 @@
 
         header {
             text-align: center;
-            padding: 20px 0;
+            padding: 20px 10px;
         }
 
         .container {
@@ -57,7 +57,7 @@
             font-family: Yekan, sans-serif;
             border: none;
             border-radius: 25px;
-            margin: 10px 5px;
+            margin: 10px auto;
             cursor: pointer;
             transition: background-color 0.3s ease;
         }
@@ -84,23 +84,68 @@
         .prize-item img {
             max-width: 100%;
             border-radius: 8px;
+            height: auto;
         }
 
         /* Media query for responsive design */
-        @media screen and (max-width: 600px) {
-            .container {
-                padding: 10px;
+        @media screen and (max-width: 768px) {
+            body {
+                font-size: 90%;
             }
+
+            header {
+                padding: 10px 5px;
+            }
+
+            .container {
+                padding: 15px;
+            }
+
             .prizes {
                 flex-direction: column;
                 align-items: center;
+            }
+
+            .prize-item {
+                width: 80%;
+            }
+
+            .button {
+                padding: 15px 25px;
+                font-size: 16px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            .card {
+                padding: 15px;
+            }
+
+            .prizes {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .prize-item {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+            .button {
+                width: 100%;
+                font-size: 14px;
+                padding: 10px 15px;
             }
         }
     </style>
 </head>
 <body>
     <header>
-        <h1> قرعه‌کشی ویژه RDNS</h1>
+        <h1>قرعه‌کشی ویژه RDNS</h1>
         <p>با دنبال کردن صفحه اینستاگرام ما، شانس خود را برای بردن جوایز ارزشمند امتحان کنید!</p>
     </header>
 
@@ -125,9 +170,9 @@
 
         <div class="card">
             <h2>چطور شرکت کنیم؟</h2>
-            <p>برای شرکت در قرعه‌کشی، کافیست صفحه اینستاگرام ما را دنبال کنید و تصویر رسید دنبال کردن را در تلگرام ارسال کنید.</p>
-            <a href="https://www.instagram.com/rdns_page" class="button">صفحه اینستاگرام</a>
-            <a href="https://t.me/rdns_shop" class="button">ارسال در تلگرام</a>
+            <p>برای شرکت در قرعه‌کشی، کافیست صفحه اینستاگرام ما را دنبال کنید.</p>
+            <a href="https://www.instagram.com/rdns_tm" class="button">صفحه اینستاگرام</a>
+            <p>زمان برگزاری قرعه کشی داخل صفحه اینستاگرام ذکر شده است.</p>
         </div>
     </div>
 </body>
